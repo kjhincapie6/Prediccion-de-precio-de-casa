@@ -4,6 +4,9 @@
 
 Aplicación web que estima el **valor promedio del mercado inmobiliario de una zona geográfica** (no de una vivienda individual) a partir de variables socioeconómicas y del entorno, usando un modelo de Machine Learning inspirado en el California Housing Dataset.
 
+🔗 **Demo en vivo:** https://prediccion-de-precio-de-casa-eeweyhzkqno73qn4tayykj.streamlit.app/
+*(app en el plan gratuito de Streamlit Cloud: si estuvo inactiva, el primer ingreso puede tardar unos segundos en "despertar").*
+
 ## ¿Qué predice exactamente?
 
 Cada registro representa una **zona residencial** (bloque censal), no una casa puntual. El modelo toma variables como ingreso medio de la zona, ubicación (latitud/longitud), proximidad al océano, total de habitaciones/dormitorios/hogares y edad mediana de la vivienda, y devuelve el valor estimado de mercado de esa zona en USD.
